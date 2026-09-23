@@ -134,20 +134,108 @@
     .empty {
       color: #8491a1;
     }
+
+    @media (max-width: 760px) {
+      body {
+        padding: 18px 12px;
+      }
+
+      h1 {
+        font-size: 1.45rem;
+      }
+
+      .summary {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+      }
+
+      .summary span {
+        padding: 8px 10px;
+      }
+
+      .table-container {
+        overflow: visible;
+        border: 0;
+        background: transparent;
+      }
+
+      table, tbody {
+        display: block;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tbody {
+        display: grid;
+        gap: 14px;
+      }
+
+      tr {
+        display: block;
+        overflow: hidden;
+        border: 1px solid #dce3ec;
+        border-radius: 10px;
+        background: white;
+      }
+
+      td {
+        display: block;
+        padding: 10px 14px;
+        overflow-wrap: anywhere;
+      }
+
+      td:last-child {
+        border-bottom: 0;
+      }
+
+      td::before {
+        content: attr(data-label);
+        display: block;
+        margin-bottom: 3px;
+        color: #526071;
+        font-size: 0.78rem;
+        font-weight: 600;
+      }
+
+      td:first-child {
+        padding-bottom: 3px;
+        border-bottom: 0;
+      }
+
+      td:nth-child(2) {
+        padding-top: 3px;
+        font-size: 1.05rem;
+      }
+
+      td:first-child::before, td:nth-child(2)::before {
+        display: none;
+      }
+
+      .url-cell {
+        min-width: 0;
+      }
+
+      .number-cell {
+        text-align: left;
+      }
+    }
   </style>
 </head>
 <body>
   <h1>Resultados del rastreador de oposiciones</h1>
   <p class="subtitle">
-    Ejecución: 23/9/2026, 17:53:34 (hora de Canarias)
+    Ejecución: 23/9/2026, 18:05:55 (hora de Canarias)
   </p>
 
   <div class="summary">
-    <span>Fuentes consultadas: <strong>34</strong></span>
-    <span>OK: <strong>32</strong></span>
-    <span>Parciales: <strong>0</strong></span>
-    <span>Errores: <strong>2</strong></span>
-    <span>Coincidencias: <strong>15</strong></span>
+    <span>Fuentes consultadas: <strong>35</strong></span>
+    <span>OK: <strong>34</strong></span>
+    <span>Parciales: <strong>1</strong></span>
+    <span>Errores: <strong>0</strong></span>
+    <span>Coincidencias: <strong>18</strong></span>
   </div>
   <p>Se excluyen publicaciones fechadas hace más de cinco meses. Los enlaces sin fecha de publicación fiable se conservan.</p>
 
@@ -165,16 +253,16 @@
       <tbody>
         
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Guía de Isora</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.guiadeisora.org/corp/recursos-humanos/ofertas-de-empleo-publico/" target="_blank" rel="noopener noreferrer">https://www.guiadeisora.org/corp/recursos-humanos/ofertas-de-empleo-publico/</a></td>
-          <td class="number-cell">12</td>
-          <td class="url-cell">
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.guiadeisora.org/corp/recursos-humanos/ofertas-de-empleo-publico/" target="_blank" rel="noopener noreferrer">https://www.guiadeisora.org/corp/recursos-humanos/ofertas-de-empleo-publico/</a></td>
+          <td class="number-cell" data-label="Coincidencias">12</td>
+          <td class="url-cell" data-label="URLs coincidentes">
                 <div class="matching-url">
                   <a href="https://www.guiadeisora.org/corp/wp-content/uploads/2016/04/BOE-A-2025-6426.pdf" target="_blank" rel="noopener noreferrer">https://www.guiadeisora.org/corp/wp-content/uploads/2016/04/BOE-A-2025-6426.pdf</a>
                 </div>
@@ -226,16 +314,41 @@
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
+            <strong>Cabildo Insular de Tenerife</strong>
+            
+          </td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.tenerife.es/convocatorias-de-empleo-publico" target="_blank" rel="noopener noreferrer">https://www.tenerife.es/convocatorias-de-empleo-publico</a></td>
+          <td class="number-cell" data-label="Coincidencias">3</td>
+          <td class="url-cell" data-label="URLs coincidentes">
+                <div class="matching-url">
+                  <a href="https://sede.tenerife.es/es/tramites/3247286-Convocatoria-publica-para-la-cobertura-por-funcionarios-as-de-carrera,-de-quince-plazas-de-Tecnico-a-de-Grado-Superior-de-Sistemas-de-Informacion--Acceso-Libre--%28Ofertas-de-Empleo-Publico-2024-y-2025%29" target="_blank" rel="noopener noreferrer">https://sede.tenerife.es/es/tramites/3247286-Convocatoria-publica-para-la-cobertura-por-funcionarios-as-de-carrera,-de-quince-plazas-de-Tecnico-a-de-Grado-Superior-de-Sistemas-de-Informacion--Acceso-Libre--%28Ofertas-de-Empleo-Publico-2024-y-2025%29</a>
+                </div>
+              
+                <div class="matching-url">
+                  <a href="https://sede.tenerife.es/es/tramites/3248978-Convocatoria-publica-para-la-cobertura-por-funcionario-a-de-carrera-de-una-plaza-de-Tecnico-a-de-Grado-Superior-de-Sistemas-de-Informacion--Promocion-Interna--%28Oferta-de-Empleo-Publico-2025%29" target="_blank" rel="noopener noreferrer">https://sede.tenerife.es/es/tramites/3248978-Convocatoria-publica-para-la-cobertura-por-funcionario-a-de-carrera-de-una-plaza-de-Tecnico-a-de-Grado-Superior-de-Sistemas-de-Informacion--Promocion-Interna--%28Oferta-de-Empleo-Publico-2025%29</a>
+                </div>
+              
+                <div class="matching-url">
+                  <a href="https://sede.tenerife.es/es/tramites/3256982-Convocatoria-publica-para-la-cobertura-por-funcionario-a-de-carrera-de-una-plaza-de-Tecnico-a-de-Sistemas-de-Informacion--Promocion-Interna--%28Oferta-de-Empleo-Publico-2024%29" target="_blank" rel="noopener noreferrer">https://sede.tenerife.es/es/tramites/3256982-Convocatoria-publica-para-la-cobertura-por-funcionario-a-de-carrera-de-una-plaza-de-Tecnico-a-de-Sistemas-de-Informacion--Promocion-Interna--%28Oferta-de-Empleo-Publico-2024%29</a>
+                </div>
+              </td>
+        </tr>
+      
+        <tr>
+          <td data-label="Estado">
+            <span class="badge badge-ok">OK</span>
+          </td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Güímar</strong>
             
           </td>
-          <td class="url-cell"><a href="https://guimar.es/" target="_blank" rel="noopener noreferrer">https://guimar.es/</a></td>
-          <td class="number-cell">2</td>
-          <td class="url-cell">
+          <td class="url-cell" data-label="URL base consultada"><a href="https://guimar.es/" target="_blank" rel="noopener noreferrer">https://guimar.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">2</td>
+          <td class="url-cell" data-label="URLs coincidentes">
                 <div class="matching-url">
                   <a href="https://guimar.es/convocatoria-y-bases-para-la-cobertura-de-una-plaza-de-informatico-grupo-iii-y-lista-de-reserva" target="_blank" rel="noopener noreferrer">https://guimar.es/convocatoria-y-bases-para-la-cobertura-de-una-plaza-de-informatico-grupo-iii-y-lista-de-reserva</a>
                 </div>
@@ -247,16 +360,16 @@
         </tr>
       
         <tr>
-          <td>
-            <span class="badge badge-ok">OK</span>
+          <td data-label="Estado">
+            <span class="badge badge-partial">PARCIAL</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>El Rosario</strong>
-            
+            <div class="error-detail">https://www.ayuntamientoelrosario.org/#: Tiempo de espera agotado (30 s) (tras 2 intentos)</div>
           </td>
-          <td class="url-cell"><a href="https://www.ayuntamientoelrosario.org/" target="_blank" rel="noopener noreferrer">https://www.ayuntamientoelrosario.org/</a></td>
-          <td class="number-cell">1</td>
-          <td class="url-cell">
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.ayuntamientoelrosario.org/" target="_blank" rel="noopener noreferrer">https://www.ayuntamientoelrosario.org/</a></td>
+          <td class="number-cell" data-label="Coincidencias">1</td>
+          <td class="url-cell" data-label="URLs coincidentes">
                 <div class="matching-url">
                   <a href="https://www.ayuntamientoelrosario.org/index.php/procesos-selectivos-ingeniero-tecnico-informatico-a/" target="_blank" rel="noopener noreferrer">https://www.ayuntamientoelrosario.org/index.php/procesos-selectivos-ingeniero-tecnico-informatico-a/</a>
                 </div>
@@ -264,406 +377,406 @@
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>BOE 2026-09-23</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.boe.es/datosabiertos/api/boe/sumario/20260923" target="_blank" rel="noopener noreferrer">https://www.boe.es/datosabiertos/api/boe/sumario/20260923</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.boe.es/datosabiertos/api/boe/sumario/20260923" target="_blank" rel="noopener noreferrer">https://www.boe.es/datosabiertos/api/boe/sumario/20260923</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>BOC 2026-09-23</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.gobiernodecanarias.org/boc/2026/191/index.html" target="_blank" rel="noopener noreferrer">https://www.gobiernodecanarias.org/boc/2026/191/index.html</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.gobiernodecanarias.org/boc/2026/191/index.html" target="_blank" rel="noopener noreferrer">https://www.gobiernodecanarias.org/boc/2026/191/index.html</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>BOP Santa Cruz 2026-09-23</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.bopsantacruzdetenerife.es/bopsc2/sumario.php?codigopub=1&amp;fecha_mas_reciente=2026-09-23" target="_blank" rel="noopener noreferrer">https://www.bopsantacruzdetenerife.es/bopsc2/sumario.php?codigopub=1&amp;fecha_mas_reciente=2026-09-23</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.bopsantacruzdetenerife.es/bopsc2/sumario.php?codigopub=1&amp;fecha_mas_reciente=2026-09-23" target="_blank" rel="noopener noreferrer">https://www.bopsantacruzdetenerife.es/bopsc2/sumario.php?codigopub=1&amp;fecha_mas_reciente=2026-09-23</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Adeje</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.adeje.es/" target="_blank" rel="noopener noreferrer">https://www.adeje.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.adeje.es/" target="_blank" rel="noopener noreferrer">https://www.adeje.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Arafo</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.arafo.es/" target="_blank" rel="noopener noreferrer">https://www.arafo.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.arafo.es/" target="_blank" rel="noopener noreferrer">https://www.arafo.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Arico</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.ayuntamientodearico.com/" target="_blank" rel="noopener noreferrer">https://www.ayuntamientodearico.com/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.ayuntamientodearico.com/" target="_blank" rel="noopener noreferrer">https://www.ayuntamientodearico.com/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Arona</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.arona.org/" target="_blank" rel="noopener noreferrer">https://www.arona.org/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.arona.org/" target="_blank" rel="noopener noreferrer">https://www.arona.org/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
-            <span class="badge badge-error">ERROR</span>
-          </td>
-          <td>
-            <strong>Buenavista del Norte</strong>
-            <div class="error-detail">https://www.buenavistadelnorte.es/: Tiempo de espera agotado (30 s) (tras 2 intentos)</div>
-          </td>
-          <td class="url-cell"><a href="https://www.buenavistadelnorte.es/" target="_blank" rel="noopener noreferrer">https://www.buenavistadelnorte.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
-        </tr>
-      
-        <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
+            <strong>Buenavista del Norte</strong>
+            
+          </td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.buenavistadelnorte.es/" target="_blank" rel="noopener noreferrer">https://www.buenavistadelnorte.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
+        </tr>
+      
+        <tr>
+          <td data-label="Estado">
+            <span class="badge badge-ok">OK</span>
+          </td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Candelaria</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.candelaria.es/" target="_blank" rel="noopener noreferrer">https://www.candelaria.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.candelaria.es/" target="_blank" rel="noopener noreferrer">https://www.candelaria.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>El Sauzal</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.elsauzal.es/" target="_blank" rel="noopener noreferrer">https://www.elsauzal.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.elsauzal.es/" target="_blank" rel="noopener noreferrer">https://www.elsauzal.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
-            <span class="badge badge-error">ERROR</span>
-          </td>
-          <td>
-            <strong>El Tanque</strong>
-            <div class="error-detail">https://www.eltanque.es/: Tiempo de espera agotado (30 s) (tras 2 intentos)</div>
-          </td>
-          <td class="url-cell"><a href="https://www.eltanque.es/" target="_blank" rel="noopener noreferrer">https://www.eltanque.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
-        </tr>
-      
-        <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
+            <strong>El Tanque</strong>
+            
+          </td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.eltanque.es/" target="_blank" rel="noopener noreferrer">https://www.eltanque.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
+        </tr>
+      
+        <tr>
+          <td data-label="Estado">
+            <span class="badge badge-ok">OK</span>
+          </td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Fasnia</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.fasnia.com/" target="_blank" rel="noopener noreferrer">https://www.fasnia.com/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.fasnia.com/" target="_blank" rel="noopener noreferrer">https://www.fasnia.com/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Garachico</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.garachico.es/" target="_blank" rel="noopener noreferrer">https://www.garachico.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.garachico.es/" target="_blank" rel="noopener noreferrer">https://www.garachico.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Granadilla de Abona</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.granadilladeabona.org/" target="_blank" rel="noopener noreferrer">https://www.granadilladeabona.org/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.granadilladeabona.org/" target="_blank" rel="noopener noreferrer">https://www.granadilladeabona.org/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Icod de los Vinos</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.icoddelosvinos.es/" target="_blank" rel="noopener noreferrer">https://www.icoddelosvinos.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.icoddelosvinos.es/" target="_blank" rel="noopener noreferrer">https://www.icoddelosvinos.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>La Guancha</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.laguancha.es/" target="_blank" rel="noopener noreferrer">https://www.laguancha.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.laguancha.es/" target="_blank" rel="noopener noreferrer">https://www.laguancha.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>La Matanza de Acentejo</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.matanceros.es/" target="_blank" rel="noopener noreferrer">https://www.matanceros.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.matanceros.es/" target="_blank" rel="noopener noreferrer">https://www.matanceros.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>La Orotava</strong>
             
           </td>
-          <td class="url-cell"><a href="https://laorotava.es/es/ayuntamiento/empleo-publico" target="_blank" rel="noopener noreferrer">https://laorotava.es/es/ayuntamiento/empleo-publico</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://laorotava.es/es/ayuntamiento/empleo-publico" target="_blank" rel="noopener noreferrer">https://laorotava.es/es/ayuntamiento/empleo-publico</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>La Victoria de Acentejo</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.lavictoriadeacentejo.es/" target="_blank" rel="noopener noreferrer">https://www.lavictoriadeacentejo.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.lavictoriadeacentejo.es/" target="_blank" rel="noopener noreferrer">https://www.lavictoriadeacentejo.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Los Realejos</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.losrealejos.es/" target="_blank" rel="noopener noreferrer">https://www.losrealejos.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.losrealejos.es/" target="_blank" rel="noopener noreferrer">https://www.losrealejos.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Los Silos</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.lossilos.es/" target="_blank" rel="noopener noreferrer">https://www.lossilos.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.lossilos.es/" target="_blank" rel="noopener noreferrer">https://www.lossilos.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Puerto de la Cruz</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.puertodelacruz.es/" target="_blank" rel="noopener noreferrer">https://www.puertodelacruz.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.puertodelacruz.es/" target="_blank" rel="noopener noreferrer">https://www.puertodelacruz.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>San Cristóbal de La Laguna</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.aytolalaguna.es/" target="_blank" rel="noopener noreferrer">https://www.aytolalaguna.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.aytolalaguna.es/" target="_blank" rel="noopener noreferrer">https://www.aytolalaguna.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>San Juan de la Rambla</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.sanjuandelarambla.es/" target="_blank" rel="noopener noreferrer">https://www.sanjuandelarambla.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.sanjuandelarambla.es/" target="_blank" rel="noopener noreferrer">https://www.sanjuandelarambla.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>San Miguel de Abona</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.sanmigueldeabona.es/" target="_blank" rel="noopener noreferrer">https://www.sanmigueldeabona.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.sanmigueldeabona.es/" target="_blank" rel="noopener noreferrer">https://www.sanmigueldeabona.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Santa Cruz de Tenerife</strong>
             
           </td>
-          <td class="url-cell"><a href="https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico" target="_blank" rel="noopener noreferrer">https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico" target="_blank" rel="noopener noreferrer">https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Santa Úrsula</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.santaursula.es/" target="_blank" rel="noopener noreferrer">https://www.santaursula.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.santaursula.es/" target="_blank" rel="noopener noreferrer">https://www.santaursula.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Santiago del Teide</strong>
             
           </td>
-          <td class="url-cell"><a href="https://sede.santiagodelteide.es/publico/tablon" target="_blank" rel="noopener noreferrer">https://sede.santiagodelteide.es/publico/tablon</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://sede.santiagodelteide.es/publico/tablon" target="_blank" rel="noopener noreferrer">https://sede.santiagodelteide.es/publico/tablon</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Tacoronte</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.tacoronte.es/" target="_blank" rel="noopener noreferrer">https://www.tacoronte.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.tacoronte.es/" target="_blank" rel="noopener noreferrer">https://www.tacoronte.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Tegueste</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.tegueste.es/" target="_blank" rel="noopener noreferrer">https://www.tegueste.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.tegueste.es/" target="_blank" rel="noopener noreferrer">https://www.tegueste.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
         <tr>
-          <td>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
-          <td>
+          <td data-label="Documento o Ayuntamiento">
             <strong>Vilaflor de Chasna</strong>
             
           </td>
-          <td class="url-cell"><a href="https://www.vilaflordechasna.es/" target="_blank" rel="noopener noreferrer">https://www.vilaflordechasna.es/</a></td>
-          <td class="number-cell">0</td>
-          <td class="url-cell"><span class="empty">—</span></td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.vilaflordechasna.es/" target="_blank" rel="noopener noreferrer">https://www.vilaflordechasna.es/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
         </tr>
       
       </tbody>
