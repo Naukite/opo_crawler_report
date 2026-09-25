@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "runAt": "2026-09-25T13:38:06.628Z",
+  "runAt": "2026-09-25T13:40:53.157Z",
   "sources": [
     {
       "source": "BOE 2026-09-25",
@@ -204,8 +204,8 @@
     },
     {
       "source": "La Matanza de Acentejo",
-      "documents": [],
-      "reliable": false
+      "reliable": true,
+      "documents": []
     },
     {
       "source": "La Orotava",
