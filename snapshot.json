@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "runAt": "2026-09-25T13:38:06.628Z",
+  "sources": [
+    {
+      "source": "BOE 2026-09-25",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "BOC 2026-09-25",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "BOP Santa Cruz 2026-09-25",
+      "reliable": true,
+      "documents": [
+        {
+          "id": "572914c87a19a850a1cf9d5f7b49438198d0e0df8313f30c630560e00e38d1c6",
+          "title": "Anuncio relativo a la Resolución dictada por la Dirección General de Recursos Humanos con fecha 16 de septiembre de 2026, mediante el que se designa al Asesor Especialista Informático del Tribunal Calificador del proceso selectivo para la cobertura de una plaza de Técnico Superior de Protección Civil, Grupo de Clasificación Profesional A, Subgrupo A1, por el turno libre y mediante el sistema de concurso-oposición",
+          "url": "https://www.bopsantacruzdetenerife.es/boletines/2026/25-9-26/25-9-26.pdf"
+        }
+      ]
+    },
+    {
+      "source": "Cabildo Insular de Tenerife",
+      "reliable": true,
+      "documents": [
+        {
+          "id": "b914134057f91176769c8dc3664535d1ba2f08237f5e0b7ee8898cd0aa074c54",
+          "title": "Convocatoria pública para la cobertura por funcionarios/as de carrera, de quince plazas de Técnico/a de Grado Superior de Sistemas de Información (Acceso Libre) (Ofertas de Empleo Público 2024 y 2025)",
+          "url": "https://sede.tenerife.es/es/tramites/3247286-Convocatoria-publica-para-la-cobertura-por-funcionarios-as-de-carrera,-de-quince-plazas-de-Tecnico-a-de-Grado-Superior-de-Sistemas-de-Informacion--Acceso-Libre--%28Ofertas-de-Empleo-Publico-2024-y-2025%29"
+        },
+        {
+          "id": "314e0be52e07975f6b9a64663b43e3b853d291827f40e3eb77f85b410c5bae5d",
+          "title": "Convocatoria pública para la cobertura por funcionario/a de carrera de una plaza de Técnico/a de Grado Superior de Sistemas de Información (Promoción Interna) (Oferta de Empleo Público 2025)",
+          "url": "https://sede.tenerife.es/es/tramites/3248978-Convocatoria-publica-para-la-cobertura-por-funcionario-a-de-carrera-de-una-plaza-de-Tecnico-a-de-Grado-Superior-de-Sistemas-de-Informacion--Promocion-Interna--%28Oferta-de-Empleo-Publico-2025%29"
+        },
+        {
+          "id": "41dd17ac7586dd6145a2568286f8d2ca36cf30805cd64f8531cf573aaee3ac66",
+          "title": "Convocatoria pública para la cobertura por funcionario/a de carrera de una plaza de Técnico/a de Sistemas de Información (Promoción Interna) (Oferta de Empleo Público 2024)",
+          "url": "https://sede.tenerife.es/es/tramites/3256982-Convocatoria-publica-para-la-cobertura-por-funcionario-a-de-carrera-de-una-plaza-de-Tecnico-a-de-Sistemas-de-Informacion--Promocion-Interna--%28Oferta-de-Empleo-Publico-2024%29"
+        }
+      ]
+    },
+    {
+      "source": "Adeje",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Arafo",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Arico",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Arona",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Buenavista del Norte",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Candelaria",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "El Rosario",
+      "reliable": true,
+      "documents": [
+        {
+          "id": "b21f84c987582b86509c6d668269651783b87d186b1349e45a702a0c72fff359",
+          "title": "Ingeniero Técnico Informático",
+          "url": "https://www.ayuntamientoelrosario.org/index.php/procesos-selectivos-ingeniero-tecnico-informatico-a/"
+        }
+      ]
+    },
+    {
+      "source": "El Sauzal",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "El Tanque",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Fasnia",
+      "documents": [],
+      "reliable": false
+    },
+    {
+      "source": "Garachico",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Granadilla de Abona",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Guía de Isora",
+      "reliable": true,
+      "documents": [
+        {
+          "id": "c8c8561a2585cc9be050aa2fcb1ed58167418a6fe9d358f278f2b7d177d92d87",
+          "title": "ANUNCIO CONVOCATORIA 1 PLAZA DE AUXILIAR ADMINISTRATIVO/A INFORMÁTICA",
+          "url": "https://www.guiadeisora.org/corp/wp-content/uploads/2016/04/BOE-A-2025-6426.pdf"
+        },
+        {
+          "id": "d37c115c4bdd93d34ec178406f782ecd98a569cc013386abd29d2b358bafa492",
+          "title": "AUXILIAR ADMINISTRATIVO INFORMÁTICA – DESCRIPCIÓN DE LA PLAZA Y TEMARIO EXAMEN",
+          "url": "https://www.guiadeisora.org/corp/wp-content/uploads/2016/04/AUXILIAR-ADMINISTRATIVO-INFORM%C3%81TICO.pdf"
+        },
+        {
+          "id": "06960ab596c3866888e51a77594e4f2023599757db1c182be411d975e418c78d",
+          "title": "ANUNCIO LISTA DEFINITIVA UNA PLAZA LABORAL FIJO Y LISTA DE RESERVA AUXILIAR ADMINISTRATIVO/A INFORMÁTICA",
+          "url": "https://www.guiadeisora.org/corp/wp-content/uploads/2026/01/ANUNCIO-LISTA-DEFINITIVA-UNA-PLAZA-LABORAL-FIJO-Y-LISTA-DE-RESERVA-AUXILIAR-ADM.-INFORM%C3%81TICA.pdf"
+        },
+        {
+          "id": "8dbe660cfca88bce50fa98fab431027679007991091ef5d736e9eb2980be877f",
+          "title": "ANUNCIO DE LAS CALIFICACIONES PROVISIONALES DE UNA PLAZA LABORAL FIJO DE AUXILIAR ADMINISTRATIVO INFORMÁTICA",
+          "url": "https://www.guiadeisora.org/corp/wp-content/uploads/2026/01/ANUNCIO-DE-LAS-CALIFICAIONES-PROVISIONALES-DE-UNA-PLAZA-LABORAL-FIJO-DE-AUXILIAR-ADMINISTRATIVO-INFORM%C3%81TICA.-1.pdf"
+        },
+        {
+          "id": "a3372906bee207963ea0fa8cde6a050e977bc4df55f0c55f32a69d21ea95051d",
+          "title": "ANUNCIO CONVOCATORIA 1 PLAZA DE ADMINISTRATIVO/A TÉCNICO/A INFORMÁTICA",
+          "url": "https://www.guiadeisora.org/corp/wp-content/uploads/2016/04/BOE-A-2025-6426.pdf"
+        },
+        {
+          "id": "354ce925b3170ec84873d12ec16a55c2d8fee88a9324b2317b580a5aefd34ab1",
+          "title": "ADMINISTRATIVO/A TÉCNICO INFORMÁTICO/A – DESCRIPCIÓN DE LA PLAZA Y TEMARIO EXAMEN",
+          "url": "https://www.guiadeisora.org/corp/wp-content/uploads/2016/04/T%C3%89CNICO-INFORM%C3%81TICO.pdf"
+        },
+        {
+          "id": "78f71d042e1c47c380a05fee4ad24da5b64c84b35212ad5b7cd1e1c5ea278a32",
+          "title": "ANUNCIO DE FECHA ,LUGAR Y HORA DE LA CELEBRACION DEL EJERCICIO DE LA FASE DE OPOSICIÓN, DEL PROCESO SELECTVO DE TÉCNICO ADMINISTRATIVO INFORMÁTICA",
+          "url": "https://www.guiadeisora.org/corp/wp-content/uploads/2026/01/PFYTT1X.pdf"
+        },
+        {
+          "id": "9f62940cf126d9da92a0308c3619d64a8e755aa1cf738c8a4be31a17f35c9615",
+          "title": "INSTRUCCIONES DE LA FASE DE OPOSICIÓN DEL PROCESO SELECTIVO DE UNA PLAZA LABORAL FIJO DE ADMINISTRATIVO TÉCNICO INFORMÁTICA",
+          "url": "https://www.guiadeisora.org/corp/wp-content/uploads/2026/01/INSTRUCCIONES-DE-LA-FASE-DE-OPOSICI%C3%93N-DEL-PROCESO-SELECTIVO-DE-UNA-PLAZA-LABORAL-FIJO-DE-ADMINISTRATIVO-T%C3%89CNICO-INFORM%C3%81TICA.pdf"
+        },
+        {
+          "id": "988dbc14cbf15ea3917554639d8b4b9fead20838af1471578d3dd360fc44ba61",
+          "title": "ANUNCIO DE LA RESOLUCIÓN DE ADMITIDOS Y EXCLUIDOS DEFINITIVOS AL PROCESO SELECTIVO DE TÉCNICO ADMINISTRATIVO INFORMÁTICO",
+          "url": "https://www.guiadeisora.org/corp/wp-content/uploads/2026/01/ANUNCIO-DE-LA-RESOLUCI%C3%93N-DE-ADMITIDOS-Y-EXCLUIDOS-DEFINITIVOS-AL-PROCESO-SELECTIVO-DE-T%C3%89CNICO-ADMINISTRATIVO-INFORM%C3%81TICO-2.pdf"
+        },
+        {
+          "id": "8915c815f08a0572b8cbe722ff56682e000ec03e8fc63bcd2b01be373029bf18",
+          "title": "ANUNCIO DE LAS CALIFICAIONES PROVISIONALES DE UNA PLAZA LABORAL FIJO DE TECNICO ADMINISTRATIVO INFORMÁTICA.",
+          "url": "https://www.guiadeisora.org/corp/wp-content/uploads/2026/01/ANUNCIO-DE-LAS-CALIFICAIONES-PROVISIONALES-DE-UNA-PLAZA-LABORAL-FIJO-DE-TECNICO-ADMINISTRATIVO-INFORM%C3%81TICA.-1.pdf"
+        },
+        {
+          "id": "3d85615dd0d53f89a93fba38f60c5f86bd51630ab8fea16f18fa00d605824708",
+          "title": "ANUNCIO DE LA RESOLUCIÓN DE ALCALDÍA PROPUESTA DE CONTRATACIÓN – ADMINISTRATIVO/ TÉCNICO INFORMATICO.",
+          "url": "https://www.guiadeisora.org/corp/wp-content/uploads/2016/04/20260306_Otros_ANUNCIO-DE-LA-RESOLUCI%C3%93N-DE-ALCALD%C3%8DA-PROPUESTA-DE-CONTRATACI%C3%93N-ADVO-TEC-INFORMAT.-1.pdf"
+        },
+        {
+          "id": "adc250fd299f3f391096e3fb24eb0bda7db105b77fcb8936490628b4345295a3",
+          "title": "RESOLUCIÓN DE APROBACIÓN DE LISTA DE RESERVA AUXILIAR ADMINISTRATIVO INFORMÁTICA",
+          "url": "https://www.guiadeisora.org/corp/wp-content/uploads/2024/12/RESOLUCI%C3%93N-DE-APROBACI%C3%93N-DE-LISTA-DE-RESERVA-AUXILIAR-ADMINISTRATIVO-INFORM%C3%81TICA.pdf"
+        }
+      ]
+    },
+    {
+      "source": "Güímar",
+      "reliable": true,
+      "documents": [
+        {
+          "id": "1961c277fbcecf325840e027eeb27166f3a5f479b458e43e33d1e4c1a0957947",
+          "title": "CONVOCATORIA Y BASES PARA LA COBERTURA DE UNA PLAZA DE INFORMÁTICO GRUPO III Y LISTA DE RESERVA.",
+          "url": "https://guimar.es/convocatoria-y-bases-para-la-cobertura-de-una-plaza-de-informatico-grupo-iii-y-lista-de-reserva"
+        },
+        {
+          "id": "f61176f6f70b952bba8d49319356614751c349d7b69ee8cc960a5cc4168c0989",
+          "title": "CONVOCATORIA Y BASES 1 PLAZA INFORMÁTICO GRUPO II, PERSONAL LABORAL.",
+          "url": "https://guimar.es/convocatoria-para-la-cobertura-en-propiedad-de-una-plaza-de-informatico-grupo-ii-y-constitucion-de"
+        }
+      ]
+    },
+    {
+      "source": "Icod de los Vinos",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "La Guancha",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "La Matanza de Acentejo",
+      "documents": [],
+      "reliable": false
+    },
+    {
+      "source": "La Orotava",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "La Victoria de Acentejo",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Los Realejos",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Los Silos",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Puerto de la Cruz",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "San Cristóbal de La Laguna",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "San Juan de la Rambla",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "San Miguel de Abona",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Santa Cruz de Tenerife",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Santa Úrsula",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Santiago del Teide",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Tacoronte",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Tegueste",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "Vilaflor de Chasna",
+      "reliable": true,
+      "documents": []
+    }
+  ]
+}
