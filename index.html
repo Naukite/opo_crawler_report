@@ -53,6 +53,8 @@
 
     .novelties h2 { margin: 0 0 8px; }
     .novelties p { margin: 0 0 12px; }
+    .seen-button { cursor: pointer; padding: 7px 12px; border: 1px solid #2563eb; border-radius: 7px; color: #174aa2; background: white; font: inherit; }
+    .seen-button:hover, .seen-button:focus-visible { background: #dbeafe; }
 
     .table-container {
       overflow-x: auto;
@@ -82,6 +84,8 @@
     tr:last-child td {
       border-bottom: 0;
     }
+
+    tr[hidden] { display: none !important; }
 
     tr:hover td {
       background: #fafcff;
@@ -238,7 +242,7 @@
 <body>
   <h1>Resultados del rastreador de oposiciones</h1>
   <p class="subtitle">
-    Ejecución: 28/9/2026, 9:50:22 (hora de Canarias)
+    Ejecución: 28/9/2026, 11:07:40 (hora de Canarias)
   </p>
 
   <div class="summary">
@@ -246,17 +250,18 @@
     <span>OK: <strong>34</strong></span>
     <span>Parciales: <strong>0</strong></span>
     <span>Errores: <strong>1</strong></span>
-    <span>Coincidencias: <strong>18</strong></span>
+    <span>Coincidencias: <strong>17</strong></span>
   </div>
   <section class="novelties" aria-labelledby="novelties-title">
-    <h2 id="novelties-title">Novedades desde la ejecución anterior: 0</h2>
-    <p>Sin comparación fiable para 2 fuente(s) sin historial válido: BOE 2026-09-28, El Tanque.</p>
+    <h2 id="novelties-title">Novedades pendientes: <span id="pending-count">0</span></h2>
+    <p>Sin comparación fiable para 1 fuente(s) sin historial válido: El Rosario.</p>
     <div class="table-container">
       <table>
-        <thead><tr><th>Organismo</th><th>Documento</th><th>URL</th></tr></thead>
-        <tbody><tr><td colspan="3">No se han detectado novedades verificables.</td></tr></tbody>
+        <thead><tr><th>Organismo</th><th>Documento</th><th>URL</th><th>Acción</th></tr></thead>
+        <tbody><tr><td colspan="4">No hay novedades pendientes.</td></tr></tbody>
       </table>
     </div>
+    <p id="all-seen" hidden>No hay novedades pendientes.</p>
   </section>
   <p>Se excluyen publicaciones fechadas hace más de cinco meses. Los enlaces sin fecha de publicación fiable se conservan.</p>
 
@@ -385,23 +390,6 @@
             <span class="badge badge-ok">OK</span>
           </td>
           <td data-label="Documento o Ayuntamiento">
-            <strong>El Rosario</strong>
-            
-          </td>
-          <td class="url-cell" data-label="URL base consultada"><a href="https://www.ayuntamientoelrosario.org/" target="_blank" rel="noopener noreferrer">https://www.ayuntamientoelrosario.org/</a></td>
-          <td class="number-cell" data-label="Coincidencias">1</td>
-          <td class="url-cell" data-label="URLs coincidentes">
-                <div class="matching-url">
-                  <a href="https://www.ayuntamientoelrosario.org/index.php/procesos-selectivos-ingeniero-tecnico-informatico-a/" target="_blank" rel="noopener noreferrer">https://www.ayuntamientoelrosario.org/index.php/procesos-selectivos-ingeniero-tecnico-informatico-a/</a>
-                </div>
-              </td>
-        </tr>
-      
-        <tr>
-          <td data-label="Estado">
-            <span class="badge badge-ok">OK</span>
-          </td>
-          <td data-label="Documento o Ayuntamiento">
             <strong>BOE 2026-09-28</strong>
             
           </td>
@@ -516,6 +504,19 @@
       
         <tr>
           <td data-label="Estado">
+            <span class="badge badge-error">ERROR</span>
+          </td>
+          <td data-label="Documento o Ayuntamiento">
+            <strong>El Rosario</strong>
+            <div class="error-detail">https://www.ayuntamientoelrosario.org/: Tiempo de espera agotado (30 s) (tras 2 intentos)</div>
+          </td>
+          <td class="url-cell" data-label="URL base consultada"><a href="https://www.ayuntamientoelrosario.org/" target="_blank" rel="noopener noreferrer">https://www.ayuntamientoelrosario.org/</a></td>
+          <td class="number-cell" data-label="Coincidencias">0</td>
+          <td class="url-cell" data-label="URLs coincidentes"><span class="empty">—</span></td>
+        </tr>
+      
+        <tr>
+          <td data-label="Estado">
             <span class="badge badge-ok">OK</span>
           </td>
           <td data-label="Documento o Ayuntamiento">
@@ -529,11 +530,11 @@
       
         <tr>
           <td data-label="Estado">
-            <span class="badge badge-error">ERROR</span>
+            <span class="badge badge-ok">OK</span>
           </td>
           <td data-label="Documento o Ayuntamiento">
             <strong>El Tanque</strong>
-            <div class="error-detail">https://www.eltanque.es/: Tiempo de espera agotado (30 s) (tras 2 intentos)</div>
+            
           </td>
           <td class="url-cell" data-label="URL base consultada"><a href="https://www.eltanque.es/" target="_blank" rel="noopener noreferrer">https://www.eltanque.es/</a></td>
           <td class="number-cell" data-label="Coincidencias">0</td>
@@ -803,5 +804,44 @@
       </tbody>
     </table>
   </div>
+<script>
+    (() => {
+      const key = "opo-crawler-seen-v1";
+      let seen;
+      try {
+        seen = new Set(JSON.parse(localStorage.getItem(key) || "[]"));
+        if (![...seen].every((id) => typeof id === "string")) throw new Error("Invalid state");
+      } catch {
+        seen = new Set();
+      }
+      const rows = [...document.querySelectorAll(".seen-button")];
+      const count = document.getElementById("pending-count");
+      const empty = document.getElementById("all-seen");
+      const update = () => {
+        let visible = 0;
+        for (const button of rows) {
+          button.closest("tr").hidden = seen.has(button.dataset.documentId);
+          if (!seen.has(button.dataset.documentId)) visible++;
+        }
+        count.textContent = String(visible);
+        empty.hidden = visible !== 0 || rows.length === 0;
+      };
+      for (const button of rows) {
+        button.addEventListener("click", () => {
+          const next = new Set(seen);
+          next.add(button.dataset.documentId);
+          try {
+            localStorage.setItem(key, JSON.stringify([...next]));
+          } catch {
+            window.alert("No se pudo guardar Visto en este navegador.");
+            return;
+          }
+          seen = next;
+          update();
+        });
+      }
+      update();
+    })();
+  </script>
 </body>
 </html>
