@@ -1,21 +1,27 @@
 {
   "version": 2,
-  "runAt": "2026-09-28T23:25:23.953Z",
+  "runAt": "2026-09-29T05:57:50.875Z",
   "sources": [
     {
-      "source": "BOE 2026-09-28",
+      "source": "BOE 2026-09-29",
+      "reliable": true,
+      "documents": [
+        {
+          "id": "2469185dd542abdb322b9eb96f86120786183be8eb25a7ba01de1cf57071c02d",
+          "title": "Resolución de 15 de septiembre de 2026, de la Universidad de Extremadura, por la que se publica la modificación del plan de estudios de Máster Universitario en Ingeniería Informática.",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20258"
+        }
+      ]
+    },
+    {
+      "source": "BOC 2026-09-29",
       "reliable": true,
       "documents": []
     },
     {
-      "source": "BOC 2026-09-28",
-      "reliable": true,
-      "documents": []
-    },
-    {
-      "source": "BOP Santa Cruz 2026-09-28",
-      "reliable": true,
-      "documents": []
+      "source": "BOP Santa Cruz 2026-09-29",
+      "documents": [],
+      "reliable": false
     },
     {
       "source": "Cabildo Insular de Tenerife",
@@ -272,5 +278,12 @@
       "documents": []
     }
   ],
-  "pending": []
+  "pending": [
+    {
+      "id": "2469185dd542abdb322b9eb96f86120786183be8eb25a7ba01de1cf57071c02d",
+      "title": "Resolución de 15 de septiembre de 2026, de la Universidad de Extremadura, por la que se publica la modificación del plan de estudios de Máster Universitario en Ingeniería Informática.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20258",
+      "source": "BOE 2026-09-29"
+    }
+  ]
 }
