@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "runAt": "2026-10-09T02:21:17.616Z",
+  "runAt": "2026-10-09T09:24:32.303Z",
   "sources": [
     {
       "source": "BOE 2026-10-09",
-      "documents": [],
-      "reliable": false
+      "reliable": true,
+      "documents": []
     },
     {
       "source": "BOC 2026-10-09",
@@ -250,7 +250,18 @@
     {
       "source": "Santa Cruz de Tenerife",
       "reliable": true,
-      "documents": []
+      "documents": [
+        {
+          "id": "b8f5f70d02be84e093fae28425b821fa5a16da5b781034fd1d6860c376628756",
+          "title": "Proceso selectivo para la cobertura, mediante funcionarios/as de carrera de tres (3) plazas de Ingeniero/a en Informática, pertenecientes a la Escala de Administración Especial, Subescala Técnica, Clase Técnicos/as Superiores, Grupo de Clasificación Profesional A, Subgrupo A1, mediante el sistema de concurso-oposición",
+          "url": "https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico/o547"
+        },
+        {
+          "id": "d144ffa413f950b57814fba0da9abb4860eb3c157a65e54bbfc41c238ed81796",
+          "title": "Proceso selectivo para la cobertura, mediante funcionarios/as de carrera de tres (3) plazas de Ingeniero/a en Informática, pertenecientes a la Escala de Administración Especial, Subescala Técnica, Clase Técnicos/as Superiores, Grupo de Clasificación Profesional A, Subgrupo A1, mediante el sistema de concurso-oposición",
+          "url": "https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico/oposiciones-en-curso/o547"
+        }
+      ]
     },
     {
       "source": "Santa Úrsula",
@@ -290,6 +301,18 @@
       "title": "Anuncio relativo a Decreto dictado por la Concejala Delegada en materia de Recursos Humanos con fecha 2 de octubre de 2026, mediante el que aprueba el nombramiento como funcionarios/as de carrera y adjudicación definitiva de puestos del proceso selectivo para la cobertura de tres (3) plazas de Ingeniero/a en Informática, Escala de Administración Especial, Subescala Técnica, Clase Técnicos/as Superiores, Grupo de Clasificación Profesional A, Subgrupo A1, del Ayuntamiento de Santa Cruz de Tenerife, incluidas en la Oferta de Empleo Público del ejercicio 2022",
       "url": "https://www.bopsantacruzdetenerife.es/boletines/2026/9-10-26/9-10-26.pdf",
       "source": "BOP Santa Cruz 2026-10-09"
+    },
+    {
+      "id": "b8f5f70d02be84e093fae28425b821fa5a16da5b781034fd1d6860c376628756",
+      "title": "Proceso selectivo para la cobertura, mediante funcionarios/as de carrera de tres (3) plazas de Ingeniero/a en Informática, pertenecientes a la Escala de Administración Especial, Subescala Técnica, Clase Técnicos/as Superiores, Grupo de Clasificación Profesional A, Subgrupo A1, mediante el sistema de concurso-oposición",
+      "url": "https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico/o547",
+      "source": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": "d144ffa413f950b57814fba0da9abb4860eb3c157a65e54bbfc41c238ed81796",
+      "title": "Proceso selectivo para la cobertura, mediante funcionarios/as de carrera de tres (3) plazas de Ingeniero/a en Informática, pertenecientes a la Escala de Administración Especial, Subescala Técnica, Clase Técnicos/as Superiores, Grupo de Clasificación Profesional A, Subgrupo A1, mediante el sistema de concurso-oposición",
+      "url": "https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico/oposiciones-en-curso/o547",
+      "source": "Santa Cruz de Tenerife"
     }
   ]
 }
