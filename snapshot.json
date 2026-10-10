@@ -1,27 +1,21 @@
 {
   "version": 2,
-  "runAt": "2026-10-09T21:49:02.584Z",
+  "runAt": "2026-10-10T01:51:08.996Z",
   "sources": [
     {
-      "source": "BOE 2026-10-09",
+      "source": "BOE 2026-10-10",
+      "documents": [],
+      "reliable": false
+    },
+    {
+      "source": "BOC 2026-10-10",
       "reliable": true,
       "documents": []
     },
     {
-      "source": "BOC 2026-10-09",
-      "reliable": true,
-      "documents": []
-    },
-    {
-      "source": "BOP Santa Cruz 2026-10-09",
-      "reliable": true,
-      "documents": [
-        {
-          "id": "3f9c7df2815a77305dba4b72d111d1eba8fa478d7d6cbd9fe091b0f3c9d16c81",
-          "title": "Anuncio relativo a Decreto dictado por la Concejala Delegada en materia de Recursos Humanos con fecha 2 de octubre de 2026, mediante el que aprueba el nombramiento como funcionarios/as de carrera y adjudicación definitiva de puestos del proceso selectivo para la cobertura de tres (3) plazas de Ingeniero/a en Informática, Escala de Administración Especial, Subescala Técnica, Clase Técnicos/as Superiores, Grupo de Clasificación Profesional A, Subgrupo A1, del Ayuntamiento de Santa Cruz de Tenerife, incluidas en la Oferta de Empleo Público del ejercicio 2022",
-          "url": "https://www.bopsantacruzdetenerife.es/boletines/2026/9-10-26/9-10-26.pdf"
-        }
-      ]
+      "source": "BOP Santa Cruz 2026-10-10",
+      "documents": [],
+      "reliable": false
     },
     {
       "source": "Cabildo Insular de Tenerife",
