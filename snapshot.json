@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "runAt": "2026-10-13T09:37:03.094Z",
+  "runAt": "2026-10-13T17:42:28.284Z",
   "sources": [
     {
       "source": "BOE 2026-10-13",
@@ -245,11 +245,6 @@
       "source": "Santa Cruz de Tenerife",
       "reliable": true,
       "documents": [
-        {
-          "id": "b8f5f70d02be84e093fae28425b821fa5a16da5b781034fd1d6860c376628756",
-          "title": "Proceso selectivo para la cobertura, mediante funcionarios/as de carrera de tres (3) plazas de Ingeniero/a en Informática, pertenecientes a la Escala de Administración Especial, Subescala Técnica, Clase Técnicos/as Superiores, Grupo de Clasificación Profesional A, Subgrupo A1, mediante el sistema de concurso-oposición",
-          "url": "https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico/o547"
-        },
         {
           "id": "d144ffa413f950b57814fba0da9abb4860eb3c157a65e54bbfc41c238ed81796",
           "title": "Proceso selectivo para la cobertura, mediante funcionarios/as de carrera de tres (3) plazas de Ingeniero/a en Informática, pertenecientes a la Escala de Administración Especial, Subescala Técnica, Clase Técnicos/as Superiores, Grupo de Clasificación Profesional A, Subgrupo A1, mediante el sistema de concurso-oposición",
