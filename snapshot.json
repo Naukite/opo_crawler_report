@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "runAt": "2026-10-21T07:51:49.839Z",
+  "runAt": "2026-10-21T14:00:09.846Z",
   "sources": [
     {
       "source": "BOE 2026-10-21",
@@ -245,16 +245,6 @@
       "source": "Santa Cruz de Tenerife",
       "reliable": true,
       "documents": [
-        {
-          "id": "9bb3e1affc55fc55557a879c36d438e16d2b7cb6fd915e803030a91b8f6589ca",
-          "title": "Proceso selectivo para la configuración de una Lista de Reserva de Ingeniero/a Informático/a, perteneciente a la Escala de Administración Especial, Subescala Técnica, Clase de Técnico/a Superior, Grupo de clasificación profesional A, Subgrupo A1, para el nombramiento como funcionarios/as interinos/as, ante razones expresamente justificadas de necesidad y urgencia",
-          "url": "https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico/o628"
-        },
-        {
-          "id": "799463175a97ebdbbca01f4cb6cbd68377a96c25469f01239eff1dbde5b7d5da",
-          "title": "Convocatoria para la provisión del puesto de trabajo denominado “Coordinador/a Tecnológico/a de Canales de Atención” adscrito al Servicio Técnico de Administración Electrónica y Tecnología, vinculado a plazas de Analista de Sistemas de Información y Analista Programador/a, pertenecientes a la Escala de Administración Especial, Subescala Técnica, Clase de Técnicos/as Superiores y Técnicos/as Medios, Grupo de Clasificación Profesional A, Subgrupos A2, por el procedimiento de concurso general",
-          "url": "https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico/o655"
-        },
         {
           "id": "a0047485154100a2611aa55170d418a2f194f0a1bb2ca324f6b029235c609e7a",
           "title": "Proceso selectivo para la configuración de una Lista de Reserva de Ingeniero/a Informático/a, perteneciente a la Escala de Administración Especial, Subescala Técnica, Clase de Técnico/a Superior, Grupo de clasificación profesional A, Subgrupo A1, para el nombramiento como funcionarios/as interinos/as, ante razones expresamente justificadas de necesidad y urgencia",
