@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "runAt": "2026-10-22T01:40:45.321Z",
+  "runAt": "2026-10-22T07:48:31.809Z",
   "sources": [
     {
       "source": "BOE 2026-10-22",
-      "documents": [],
-      "reliable": false
+      "reliable": true,
+      "documents": []
     },
     {
       "source": "BOC 2026-10-22",
