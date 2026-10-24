@@ -1,21 +1,21 @@
 {
   "version": 2,
-  "runAt": "2026-10-23T22:26:01.808Z",
+  "runAt": "2026-10-24T01:46:55.476Z",
   "sources": [
     {
-      "source": "BOE 2026-10-23",
+      "source": "BOE 2026-10-24",
+      "documents": [],
+      "reliable": false
+    },
+    {
+      "source": "BOC 2026-10-24",
       "reliable": true,
       "documents": []
     },
     {
-      "source": "BOC 2026-10-23",
-      "reliable": true,
-      "documents": []
-    },
-    {
-      "source": "BOP Santa Cruz 2026-10-23",
-      "reliable": true,
-      "documents": []
+      "source": "BOP Santa Cruz 2026-10-24",
+      "documents": [],
+      "reliable": false
     },
     {
       "source": "Cabildo Insular de Tenerife",
