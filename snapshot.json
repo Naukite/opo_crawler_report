@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "runAt": "2026-10-27T13:25:52.914Z",
+  "runAt": "2026-10-27T19:32:55.699Z",
   "sources": [
     {
       "source": "BOE 2026-10-27",
@@ -245,11 +245,6 @@
       "source": "Santa Cruz de Tenerife",
       "reliable": true,
       "documents": [
-        {
-          "id": "9bb3e1affc55fc55557a879c36d438e16d2b7cb6fd915e803030a91b8f6589ca",
-          "title": "Proceso selectivo para la configuración de una Lista de Reserva de Ingeniero/a Informático/a, perteneciente a la Escala de Administración Especial, Subescala Técnica, Clase de Técnico/a Superior, Grupo de clasificación profesional A, Subgrupo A1, para el nombramiento como funcionarios/as interinos/as, ante razones expresamente justificadas de necesidad y urgencia",
-          "url": "https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico/o628"
-        },
         {
           "id": "a0047485154100a2611aa55170d418a2f194f0a1bb2ca324f6b029235c609e7a",
           "title": "Proceso selectivo para la configuración de una Lista de Reserva de Ingeniero/a Informático/a, perteneciente a la Escala de Administración Especial, Subescala Técnica, Clase de Técnico/a Superior, Grupo de clasificación profesional A, Subgrupo A1, para el nombramiento como funcionarios/as interinos/as, ante razones expresamente justificadas de necesidad y urgencia",
