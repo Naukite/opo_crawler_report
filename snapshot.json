@@ -1,32 +1,21 @@
 {
   "version": 2,
-  "runAt": "2026-10-29T21:55:58.243Z",
+  "runAt": "2026-10-30T02:03:44.171Z",
   "sources": [
     {
-      "source": "BOE 2026-10-29",
-      "reliable": true,
-      "documents": [
-        {
-          "id": "716305a57e9d200610b86ac8370419bc30d3cde7684d31dbad27ae064616a905",
-          "title": "Resolución de 21 de octubre de 2026, de la Universidad Politécnica de Madrid, por la que se corrigen errores en la de 18 de mayo de 2026, por la que se convocan pruebas selectivas para ingreso, por el sistema general de acceso libre y promoción interna, en la Escala de Gestión de Sistemas e Informática.",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22673"
-        },
-        {
-          "id": "f7f67573027e55f11835aebd426f5be61fc1f201d3b42afc8ecc7fa49def98fe",
-          "title": "Resolución de 19 de octubre de 2026, de la Universidad de Extremadura, por la que se publica el plan de estudios de Graduado o Graduada en Ingeniería Informática.",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22708"
-        }
-      ]
+      "source": "BOE 2026-10-30",
+      "documents": [],
+      "reliable": false
     },
     {
-      "source": "BOC 2026-10-29",
+      "source": "BOC 2026-10-30",
       "reliable": true,
       "documents": []
     },
     {
-      "source": "BOP Santa Cruz 2026-10-29",
-      "documents": [],
-      "reliable": false
+      "source": "BOP Santa Cruz 2026-10-30",
+      "reliable": true,
+      "documents": []
     },
     {
       "source": "Cabildo Insular de Tenerife",
