@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "runAt": "2026-10-31T22:39:16.906Z",
+  "runAt": "2026-11-01T02:24:09.881Z",
   "sources": [
     {
-      "source": "BOE 2026-10-31",
+      "source": "BOE 2026-11-01",
+      "documents": [],
+      "reliable": false
+    },
+    {
+      "source": "BOC 2026-11-01",
       "reliable": true,
       "documents": []
     },
     {
-      "source": "BOC 2026-10-31",
-      "reliable": true,
-      "documents": []
-    },
-    {
-      "source": "BOP Santa Cruz 2026-10-31",
+      "source": "BOP Santa Cruz 2026-11-01",
       "documents": [],
       "reliable": false
     },
