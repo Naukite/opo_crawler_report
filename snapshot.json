@@ -1,21 +1,27 @@
 {
   "version": 2,
-  "runAt": "2026-11-03T23:33:03.913Z",
+  "runAt": "2026-11-04T06:46:44.375Z",
   "sources": [
     {
-      "source": "BOE 2026-11-03",
+      "source": "BOE 2026-11-04",
       "reliable": true,
       "documents": []
     },
     {
-      "source": "BOC 2026-11-03",
+      "source": "BOC 2026-11-04",
       "reliable": true,
-      "documents": []
+      "documents": [
+        {
+          "id": "86f67aae7f909178ab78b42107bf65a38a2b22cede0f6c532c71ce1027f65ec8",
+          "title": "Servicio Canario de la Salud.- Resolución de 22 de octubre de 2026, del Director, de nombramiento como personal estatutario fijo en plazas básicas vacantes de la categoría de Técnica/o Titulada/o Medio en Informática, Grupo A/A2 Gestión y Servicios, del proceso selectivo excepcional de estabilización del empleo temporal (concurso-oposición).",
+          "url": "https://sede.gobiernodecanarias.org/boc/boc-a-2026-220-3776.pdf"
+        }
+      ]
     },
     {
-      "source": "BOP Santa Cruz 2026-11-03",
-      "documents": [],
-      "reliable": false
+      "source": "BOP Santa Cruz 2026-11-04",
+      "reliable": true,
+      "documents": []
     },
     {
       "source": "Cabildo Insular de Tenerife",
@@ -325,6 +331,12 @@
       "title": "Proceso selectivo para la configuración de una Lista de Reserva de Ingeniero/a Informático/a, perteneciente a la Escala de Administración Especial, Subescala Técnica, Clase de Técnico/a Superior, Grupo de clasificación profesional A, Subgrupo A1, para el nombramiento como funcionarios/as interinos/as, ante razones expresamente justificadas de necesidad y urgencia",
       "url": "https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico/oposiciones-en-curso/o628",
       "source": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": "86f67aae7f909178ab78b42107bf65a38a2b22cede0f6c532c71ce1027f65ec8",
+      "title": "Servicio Canario de la Salud.- Resolución de 22 de octubre de 2026, del Director, de nombramiento como personal estatutario fijo en plazas básicas vacantes de la categoría de Técnica/o Titulada/o Medio en Informática, Grupo A/A2 Gestión y Servicios, del proceso selectivo excepcional de estabilización del empleo temporal (concurso-oposición).",
+      "url": "https://sede.gobiernodecanarias.org/boc/boc-a-2026-220-3776.pdf",
+      "source": "BOC 2026-11-04"
     }
   ]
 }
