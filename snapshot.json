@@ -1,27 +1,21 @@
 {
   "version": 2,
-  "runAt": "2026-11-04T22:01:19.615Z",
+  "runAt": "2026-11-05T02:39:14.373Z",
   "sources": [
     {
-      "source": "BOE 2026-11-04",
+      "source": "BOE 2026-11-05",
+      "documents": [],
+      "reliable": false
+    },
+    {
+      "source": "BOC 2026-11-05",
       "reliable": true,
       "documents": []
     },
     {
-      "source": "BOC 2026-11-04",
-      "reliable": true,
-      "documents": [
-        {
-          "id": "86f67aae7f909178ab78b42107bf65a38a2b22cede0f6c532c71ce1027f65ec8",
-          "title": "Servicio Canario de la Salud.- Resolución de 22 de octubre de 2026, del Director, de nombramiento como personal estatutario fijo en plazas básicas vacantes de la categoría de Técnica/o Titulada/o Medio en Informática, Grupo A/A2 Gestión y Servicios, del proceso selectivo excepcional de estabilización del empleo temporal (concurso-oposición).",
-          "url": "https://sede.gobiernodecanarias.org/boc/boc-a-2026-220-3776.pdf"
-        }
-      ]
-    },
-    {
-      "source": "BOP Santa Cruz 2026-11-04",
-      "reliable": true,
-      "documents": []
+      "source": "BOP Santa Cruz 2026-11-05",
+      "documents": [],
+      "reliable": false
     },
     {
       "source": "Cabildo Insular de Tenerife",
