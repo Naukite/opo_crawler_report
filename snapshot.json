@@ -1,21 +1,27 @@
 {
   "version": 2,
-  "runAt": "2026-11-05T11:16:42.804Z",
+  "runAt": "2026-11-06T00:28:11.740Z",
   "sources": [
     {
-      "source": "BOE 2026-11-05",
-      "reliable": true,
-      "documents": []
-    },
-    {
-      "source": "BOC 2026-11-05",
-      "reliable": true,
-      "documents": []
-    },
-    {
-      "source": "BOP Santa Cruz 2026-11-05",
+      "source": "BOE 2026-11-06",
       "documents": [],
       "reliable": false
+    },
+    {
+      "source": "BOC 2026-11-06",
+      "reliable": true,
+      "documents": []
+    },
+    {
+      "source": "BOP Santa Cruz 2026-11-06",
+      "reliable": true,
+      "documents": [
+        {
+          "id": "e84dd6e22dac086233ae2ad665ebeb4cb0cd639fddc5d1c74fbaa9b7d330d6ff",
+          "title": "Anuncio relativo a la concesión de un día para la presentación de solicitudes de participación en varios procesos selectivos con motivo de incidencia técnica informática",
+          "url": "https://www.bopsantacruzdetenerife.es/boletines/2026/6-11-26/6-11-26.pdf"
+        }
+      ]
     },
     {
       "source": "Cabildo Insular de Tenerife",
@@ -326,6 +332,12 @@
       "title": "Servicio Canario de la Salud.- Resolución de 22 de octubre de 2026, del Director, de nombramiento como personal estatutario fijo en plazas básicas vacantes de la categoría de Técnica/o Titulada/o Medio en Informática, Grupo A/A2 Gestión y Servicios, del proceso selectivo excepcional de estabilización del empleo temporal (concurso-oposición).",
       "url": "https://sede.gobiernodecanarias.org/boc/boc-a-2026-220-3776.pdf",
       "source": "BOC 2026-11-04"
+    },
+    {
+      "id": "e84dd6e22dac086233ae2ad665ebeb4cb0cd639fddc5d1c74fbaa9b7d330d6ff",
+      "title": "Anuncio relativo a la concesión de un día para la presentación de solicitudes de participación en varios procesos selectivos con motivo de incidencia técnica informática",
+      "url": "https://www.bopsantacruzdetenerife.es/boletines/2026/6-11-26/6-11-26.pdf",
+      "source": "BOP Santa Cruz 2026-11-06"
     }
   ]
 }
