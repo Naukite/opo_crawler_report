@@ -1,27 +1,21 @@
 {
   "version": 2,
-  "runAt": "2026-11-06T21:41:21.716Z",
+  "runAt": "2026-11-07T02:06:00.589Z",
   "sources": [
     {
-      "source": "BOE 2026-11-06",
+      "source": "BOE 2026-11-07",
+      "documents": [],
+      "reliable": false
+    },
+    {
+      "source": "BOC 2026-11-07",
       "reliable": true,
       "documents": []
     },
     {
-      "source": "BOC 2026-11-06",
-      "reliable": true,
-      "documents": []
-    },
-    {
-      "source": "BOP Santa Cruz 2026-11-06",
-      "reliable": true,
-      "documents": [
-        {
-          "id": "e84dd6e22dac086233ae2ad665ebeb4cb0cd639fddc5d1c74fbaa9b7d330d6ff",
-          "title": "Anuncio relativo a la concesión de un día para la presentación de solicitudes de participación en varios procesos selectivos con motivo de incidencia técnica informática",
-          "url": "https://www.bopsantacruzdetenerife.es/boletines/2026/6-11-26/6-11-26.pdf"
-        }
-      ]
+      "source": "BOP Santa Cruz 2026-11-07",
+      "documents": [],
+      "reliable": false
     },
     {
       "source": "Cabildo Insular de Tenerife",
