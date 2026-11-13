@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "runAt": "2026-11-13T03:29:19.132Z",
+  "runAt": "2026-11-13T12:26:59.863Z",
   "sources": [
     {
       "source": "BOE 2026-11-13",
-      "documents": [],
-      "reliable": false
+      "reliable": true,
+      "documents": [
+        {
+          "id": "33654876987d3a36778383c23c7d98a7eba113de86172f70bf034cc2fcaeeeea",
+          "title": "Resolución de 6 de noviembre de 2026, de la Universidad de Zaragoza, por la que se publica la convocatoria de proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en la Escala de Técnicos Medios de Informática.",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23809"
+        }
+      ]
     },
     {
       "source": "BOC 2026-11-13",
@@ -244,13 +250,7 @@
     {
       "source": "Santa Cruz de Tenerife",
       "reliable": true,
-      "documents": [
-        {
-          "id": "a0047485154100a2611aa55170d418a2f194f0a1bb2ca324f6b029235c609e7a",
-          "title": "Proceso selectivo para la configuración de una Lista de Reserva de Ingeniero/a Informático/a, perteneciente a la Escala de Administración Especial, Subescala Técnica, Clase de Técnico/a Superior, Grupo de clasificación profesional A, Subgrupo A1, para el nombramiento como funcionarios/as interinos/as, ante razones expresamente justificadas de necesidad y urgencia",
-          "url": "https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico/oposiciones-en-curso/o628"
-        }
-      ]
+      "documents": []
     },
     {
       "source": "Santa Úrsula",
