@@ -1,27 +1,21 @@
 {
   "version": 2,
-  "runAt": "2026-11-13T20:34:36.971Z",
+  "runAt": "2026-11-14T01:32:51.921Z",
   "sources": [
     {
-      "source": "BOE 2026-11-13",
-      "reliable": true,
-      "documents": [
-        {
-          "id": "33654876987d3a36778383c23c7d98a7eba113de86172f70bf034cc2fcaeeeea",
-          "title": "Resolución de 6 de noviembre de 2026, de la Universidad de Zaragoza, por la que se publica la convocatoria de proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en la Escala de Técnicos Medios de Informática.",
-          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23809"
-        }
-      ]
+      "source": "BOE 2026-11-14",
+      "documents": [],
+      "reliable": false
     },
     {
-      "source": "BOC 2026-11-13",
+      "source": "BOC 2026-11-14",
       "reliable": true,
       "documents": []
     },
     {
-      "source": "BOP Santa Cruz 2026-11-13",
-      "reliable": true,
-      "documents": []
+      "source": "BOP Santa Cruz 2026-11-14",
+      "documents": [],
+      "reliable": false
     },
     {
       "source": "Cabildo Insular de Tenerife",
