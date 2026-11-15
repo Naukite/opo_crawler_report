@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "runAt": "2026-11-15T07:58:31.148Z",
+  "runAt": "2026-11-15T15:46:39.897Z",
   "sources": [
     {
       "source": "BOE 2026-11-15",
@@ -20,23 +20,7 @@
     {
       "source": "Cabildo Insular de Tenerife",
       "reliable": true,
-      "documents": [
-        {
-          "id": "b914134057f91176769c8dc3664535d1ba2f08237f5e0b7ee8898cd0aa074c54",
-          "title": "Convocatoria pública para la cobertura por funcionarios/as de carrera, de quince plazas de Técnico/a de Grado Superior de Sistemas de Información (Acceso Libre) (Ofertas de Empleo Público 2024 y 2025)",
-          "url": "https://sede.tenerife.es/es/tramites/3247286-Convocatoria-publica-para-la-cobertura-por-funcionarios-as-de-carrera,-de-quince-plazas-de-Tecnico-a-de-Grado-Superior-de-Sistemas-de-Informacion--Acceso-Libre--%28Ofertas-de-Empleo-Publico-2024-y-2025%29"
-        },
-        {
-          "id": "314e0be52e07975f6b9a64663b43e3b853d291827f40e3eb77f85b410c5bae5d",
-          "title": "Convocatoria pública para la cobertura por funcionario/a de carrera de una plaza de Técnico/a de Grado Superior de Sistemas de Información (Promoción Interna) (Oferta de Empleo Público 2025)",
-          "url": "https://sede.tenerife.es/es/tramites/3248978-Convocatoria-publica-para-la-cobertura-por-funcionario-a-de-carrera-de-una-plaza-de-Tecnico-a-de-Grado-Superior-de-Sistemas-de-Informacion--Promocion-Interna--%28Oferta-de-Empleo-Publico-2025%29"
-        },
-        {
-          "id": "41dd17ac7586dd6145a2568286f8d2ca36cf30805cd64f8531cf573aaee3ac66",
-          "title": "Convocatoria pública para la cobertura por funcionario/a de carrera de una plaza de Técnico/a de Sistemas de Información (Promoción Interna) (Oferta de Empleo Público 2024)",
-          "url": "https://sede.tenerife.es/es/tramites/3256982-Convocatoria-publica-para-la-cobertura-por-funcionario-a-de-carrera-de-una-plaza-de-Tecnico-a-de-Sistemas-de-Informacion--Promocion-Interna--%28Oferta-de-Empleo-Publico-2024%29"
-        }
-      ]
+      "documents": []
     },
     {
       "source": "Adeje",
