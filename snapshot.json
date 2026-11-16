@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "runAt": "2026-11-16T08:08:15.370Z",
+  "runAt": "2026-11-16T18:44:02.240Z",
   "sources": [
     {
       "source": "BOE 2026-11-16",
@@ -244,7 +244,13 @@
     {
       "source": "Santa Cruz de Tenerife",
       "reliable": true,
-      "documents": []
+      "documents": [
+        {
+          "id": "799463175a97ebdbbca01f4cb6cbd68377a96c25469f01239eff1dbde5b7d5da",
+          "title": "Convocatoria para la provisión del puesto de trabajo denominado “Coordinador/a Tecnológico/a de Canales de Atención” adscrito al Servicio Técnico de Administración Electrónica y Tecnología, vinculado a plazas de Analista de Sistemas de Información y Analista Programador/a, pertenecientes a la Escala de Administración Especial, Subescala Técnica, Clase de Técnicos/as Superiores y Técnicos/as Medios, Grupo de Clasificación Profesional A, Subgrupos A2, por el procedimiento de concurso general",
+          "url": "https://sede.santacruzdetenerife.es/sede/publicaciones/empleo-publico/o655"
+        }
+      ]
     },
     {
       "source": "Santa Úrsula",
