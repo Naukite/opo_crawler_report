@@ -1,21 +1,27 @@
 {
   "version": 2,
-  "runAt": "2026-11-18T20:46:22.514Z",
+  "runAt": "2026-11-19T02:41:34.983Z",
   "sources": [
     {
-      "source": "BOE 2026-11-18",
-      "reliable": true,
-      "documents": []
+      "source": "BOE 2026-11-19",
+      "documents": [],
+      "reliable": false
     },
     {
-      "source": "BOC 2026-11-18",
+      "source": "BOC 2026-11-19",
       "reliable": true,
-      "documents": []
+      "documents": [
+        {
+          "id": "de49f0ee573c1c446ad814681f563bef4827308b9124f9b5e701ff2b0c044017",
+          "title": "RESOLUCIÓN de 6 de noviembre de 2026, por la que se hace pública la identidad de los aspirantes que han superado el proceso selectivo para el grupo profesional Titulado Superior, especialidad Informática (L1), por el sistema de concurso-oposición restringido.",
+          "url": "https://sede.gobiernodecanarias.org/boc/boc-a-2026-233-4037.pdf"
+        }
+      ]
     },
     {
-      "source": "BOP Santa Cruz 2026-11-18",
-      "reliable": true,
-      "documents": []
+      "source": "BOP Santa Cruz 2026-11-19",
+      "documents": [],
+      "reliable": false
     },
     {
       "source": "Cabildo Insular de Tenerife",
@@ -344,6 +350,12 @@
       "title": "Convocatoria pública para la cobertura por funcionario/a de carrera de una plaza de Técnico/a de Sistemas de Información (Promoción Interna) (Oferta de Empleo Público 2024)",
       "url": "https://sede.tenerife.es/es/tramites/3256982-Convocatoria-publica-para-la-cobertura-por-funcionario-a-de-carrera-de-una-plaza-de-Tecnico-a-de-Sistemas-de-Informacion--Promocion-Interna--%28Oferta-de-Empleo-Publico-2024%29",
       "source": "Cabildo Insular de Tenerife"
+    },
+    {
+      "id": "de49f0ee573c1c446ad814681f563bef4827308b9124f9b5e701ff2b0c044017",
+      "title": "RESOLUCIÓN de 6 de noviembre de 2026, por la que se hace pública la identidad de los aspirantes que han superado el proceso selectivo para el grupo profesional Titulado Superior, especialidad Informática (L1), por el sistema de concurso-oposición restringido.",
+      "url": "https://sede.gobiernodecanarias.org/boc/boc-a-2026-233-4037.pdf",
+      "source": "BOC 2026-11-19"
     }
   ]
 }
