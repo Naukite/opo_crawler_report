@@ -1,11 +1,22 @@
 {
   "version": 2,
-  "runAt": "2026-11-19T02:41:34.983Z",
+  "runAt": "2026-11-19T11:57:28.179Z",
   "sources": [
     {
       "source": "BOE 2026-11-19",
-      "documents": [],
-      "reliable": false
+      "reliable": true,
+      "documents": [
+        {
+          "id": "4e884eaa9a492953e2caa591cf06400f29288795583e78ec2dec2c0c00c7b898",
+          "title": "Resolución de 17 de noviembre de 2026, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, del Cuerpo Superior de Sistemas y Tecnologías de la Información de la Administración del Estado.",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24195"
+        },
+        {
+          "id": "5d5fa7f582b2454b97bd804f42aff08d6151c84d52c3c1edb4e66b7dc781cfc2",
+          "title": "Resolución de 11 de noviembre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo por concurso-oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Técnico/a Titulado/a Medio en Informática.",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24218"
+        }
+      ]
     },
     {
       "source": "BOC 2026-11-19",
